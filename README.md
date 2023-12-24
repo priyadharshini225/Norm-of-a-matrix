@@ -22,11 +22,7 @@ print(norm_matrix)
 
 
 # 2-Norm of a Matrix
-'''
-Program to find 2-norm of a matrix.
-Developed by: PRIYADHARSHINI S
-RegisterNumber: 23003522
-'''
+
 import numpy as np
 mat=np.array(eval(input()))
 ans=np.linalg.norm(mat,2)
